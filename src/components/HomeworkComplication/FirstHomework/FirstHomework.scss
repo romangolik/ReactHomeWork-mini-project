@@ -1,0 +1,46 @@
+.router {
+  background-color: #FFCC00;
+  padding: 100px 100px 0;
+  height: 84.8%;
+
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+
+  .active {
+    background-color: #0099FF;
+  }
+}
+
+.header{
+  background-color: #111;
+  padding: 0;
+
+  li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+}
+
+.contentOfComponent h2 {
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.contentOfComponent {
+  background-color: #FFF;
+  padding: 20px;
+}
